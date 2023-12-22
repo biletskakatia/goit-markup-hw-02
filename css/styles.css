@@ -13,17 +13,16 @@ a {
   }
   
 .visually-hidden {
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     overflow: hidden;
   }
 
   .title {
+    color:#2e2f42;
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11; 
@@ -47,7 +46,7 @@ text-transform: uppercase;
 }
 
 .header-menu-link {
-color: inherit;
+color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.50; 
@@ -67,15 +66,17 @@ letter-spacing: 0.02em;
     text-decoration: underline;
   }
 
-
-.header-address-link {
-color: inherit;
-font-style: normal;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.50;
-letter-spacing: 0.02em;
+.header-address{
+    font-style: normal;
 }
+.header-address-link {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
 .header-address-link:hover {
     color: #404BBF;
 }
@@ -95,6 +96,7 @@ color:  #FFF;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
+text-align: center;
 letter-spacing: 0.02em;
 }
 .hero-btn {
@@ -126,6 +128,7 @@ cursor: pointer;
 .values-item {
 }
 .values-subtitle {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
@@ -184,6 +187,7 @@ letter-spacing: 0.02em;
 }
 
 .portfolio-item-title {
+    color:#2e2f42;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -215,7 +219,7 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
     }
 
-.footer-logo span {
+.footer-logo-span {
         color: #F4F4FD;
     }   
 
